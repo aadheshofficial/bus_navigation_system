@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+        <item android:id="@+id/nav_info"
+            android:title="Send Location"
+            android:icon="@drawable/show_info"/>
+        <item android:id="@+id/nav_route"
+            android:title="Route Chart"
+            android:icon="@drawable/show_route"/>
+        <item android:id="@+id/nav_map"
+            android:title="Show Map"
+            android:icon="@drawable/show_map"/>
+    </group>
+        <item android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_profile"
+                    android:title="Show Profile"
+                    android:icon="@drawable/default_profile"/>
+                <item android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon"/>
+                </group>
+
+            </menu>
+        </item>
+        <item android:title="Setting">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_setting"
+                    android:title="Settings"
+                    android:icon="@drawable/setting_icon"/>
+                </group>
+
+            </menu>
+        </item>
+</menu>

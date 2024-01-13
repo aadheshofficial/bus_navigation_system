@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#0000FF"
+    android:gravity="bottom"
+    android:paddingLeft="30dp"
+    android:paddingBottom="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/nav_prof_pic"
+        android:padding="10px"
+        android:src="@drawable/default_profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_prof_id"
+        android:textColor="@color/white"
+        android:text="Id"
+        android:padding="10px"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the Driver"
+        android:id="@+id/nav_prof_name"
+        android:textColor="@color/white"
+        android:padding="10px"
+        android:textSize="28sp"/>
+
+
+</LinearLayout>
