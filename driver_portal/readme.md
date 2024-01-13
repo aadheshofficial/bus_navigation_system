@@ -1,0 +1,1 @@
+this is the driver's application where the drivers are required to start the application and enable their location service in the app to send the real time location update to the bus navigation users from their mobile phone
