@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bus Navigator</string>
+    <string name="login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="visible">visible</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="forget_password_title">Forget Password</string>
+    <string name="send_email">Send Email</string>
+    <string name="back_to_login">Back to Login Page</string>
+    <string name="no_avail_bus">No Bus Available</string>
+    <string name="avail_bus">Available Bus</string>
+
+    <string name="view_map">View On Map</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="open_drawer">Open Navigation bar</string>
+    <string name="close_drawer">Close Navigation bar</string>
+
+
+</resources>
